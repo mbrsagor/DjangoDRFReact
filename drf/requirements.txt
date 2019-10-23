@@ -23,7 +23,7 @@ Django==2.1.5
 django-allauth==0.38.0
 django-rest-auth==0.9.3
 django-rest-registration==0.3.13
-djangorestframework==3.9.0
+djangorestframework==3.9.1
 flake8==3.6.0
 Flask==0.12.2
 Flask-BabelEx==0.9.3
