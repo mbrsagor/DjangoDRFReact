@@ -1,0 +1,13 @@
+.margin_right5 {
+  margin-right: 5px;
+}
+.add_new_btn {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.message {
+  color: #ffffff;
+}
+.swal-footer {
+  text-align: center !important;
+}
