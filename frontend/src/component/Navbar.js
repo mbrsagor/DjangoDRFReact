@@ -14,7 +14,7 @@ export default class Navbar extends Component {
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav">
                                 <a className="nav-item nav-link" href="/">CUSTOMERS</a>
-                                <a className="nav-item nav-link" href="/CustomerCreateUpdate">CREATE CUSTOMER</a>
+                                <a className="nav-item nav-link" href={`/createUpdate/`}>CREATE CUSTOMER</a>
                             </div>
                         </div>
                     </nav>  
