@@ -6,3 +6,4 @@ venv/
 .cache
 .vscode/
 migrations/
+.DS_Store
