@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import CustomersHelper from "./CustomersHelper.js";
+// import Form from './Form';
 import {ToastsContainer, ToastsStore} from 'react-toasts';
 
-// This component using customer `create` `update` `retrieve` and `delete` methods.
+// This component using customer `create` `update` and `retrieve`  methods.
 const customer_helper = new CustomersHelper();
 
 export default class CustomerCreateUpdate extends Component {
@@ -57,7 +58,6 @@ export default class CustomerCreateUpdate extends Component {
     // Create update customer `handler`
     handleSubmit(event) {
       const {match: {params}} = this.props;
-      
       if(params && params.id){
         this.handleUpdate(params.id);
       } else {
