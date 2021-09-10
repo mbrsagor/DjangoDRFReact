@@ -5,5 +5,5 @@ django-cors-headers==3.5.0
 djangorestframework==3.12.1
 pycodestyle==2.6.0
 pytz==2020.1
-sqlparse==0.4.1
+sqlparse==0.4.2
 toml==0.10.1
