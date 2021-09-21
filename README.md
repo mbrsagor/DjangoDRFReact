@@ -6,7 +6,7 @@
 - Python 3.8.5
 - Django 3.1.2
 - Node v14.4.0
-- NPM 6.14.8
+- Npm 6.14.8
 
 
 The following steps will walk you thru installation on a Mac. Linux should be similar.
@@ -17,15 +17,18 @@ up and running.
 ### Locally run the project.
 If you run the project you local dev server please follow the command. If you follow the comman it will be run your development server. Open your terminal
 
-```
+###### Run the backend server
 git clone https://github.com/mbrsagor/DjangoDRFReact.git
+```
 cd drf
 virtualenv venv --python=python3.8
 source venv/bin/activate
 pip install -r requirements.txt
 ./manage.py migrate
 ./manage.py runserver
-
+```
+###### Rn the frontend server:
+```
 cd ..
 cd frontend
 yarn install
