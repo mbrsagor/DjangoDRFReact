@@ -52,10 +52,10 @@ export default class Customers extends Component {
           </div>
         </div>
         <div className="col-lg-12">
-          <table className="table">
+          <table className="table table-hover table-dark">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">ID</th>
                 <th scope="col">Username</th>
                 <th scope="col">Full Name</th>
                 <th scope="col">Email</th>

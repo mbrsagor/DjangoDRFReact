@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Customers from "./Customers";
 
-export default class CustomersList extends Component {
-    render() { 
-        return <Customers/>
-    }
+
+export default function CustomersList() {
+    return <Customers/>
 }
- 

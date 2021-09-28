@@ -1,12 +1,9 @@
-import React, { Component } from "react";
+import React from 'react';
 
-export default class Default extends Component {
-    state = {  }
-    render() { 
-        return (
-            <div>
-                <h2>404, Not found</h2>
-            </div>
-        );
-    }
+export default function Default() {
+    return (
+        <div>
+            <h2>404, Not found</h2>
+        </div>
+    )
 }
