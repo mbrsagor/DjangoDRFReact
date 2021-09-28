@@ -7,11 +7,11 @@ import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // import all component here
-import Navbar from "./component/Navbar";
-import CustomerCreateUpdate from "./component/CustomerCreateUpdate";
-import CustomersList from "./component/CustomersList";
-import Details from "./component/Details";
-import Default from "./component/Default";
+import Navbar from "./components/Navbar";
+import CustomerCreateUpdate from "./components/CustomerCreateUpdate";
+import CustomersList from "./components/CustomersList";
+import Details from "./components/Details";
+import Default from "./components/Default";
 
 export default class App extends Component {
   render() {
