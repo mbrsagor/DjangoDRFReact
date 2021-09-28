@@ -7,3 +7,5 @@ venv/
 .vscode/
 migrations/
 .DS_Store
+
+node_modules/
