@@ -7,7 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // import all component here
-import Navbar from "./components/Navbar";
+import Header from "./components/header";
 import CustomerCreateUpdate from "./components/CustomerCreateUpdate";
 import CustomersList from "./components/CustomersList";
 import Details from "./components/Details";
@@ -17,7 +17,7 @@ export default class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
+        <Header />
         <div className="container">
           <Switch>
             <Route exact path="/" component={CustomersList} />
