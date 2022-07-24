@@ -20,7 +20,7 @@ export default class Details extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col-lg-12">
+        <div className="col-lg-6 offset-3">
           <h1>Name: {this.state.customer.username}</h1>
           <h1>Full name: {this.state.customer.full_name}</h1>
           <h1>Email: {this.state.customer.email}</h1>
