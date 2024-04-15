@@ -6,5 +6,5 @@ django-environ==0.4.5
 djangorestframework==3.12.1
 pycodestyle==2.6.0
 pytz==2020.1
-sqlparse==0.4.4
+sqlparse==0.5.0
 toml==0.10.1
